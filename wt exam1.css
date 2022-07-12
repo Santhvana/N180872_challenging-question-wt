@@ -1,0 +1,70 @@
+body{
+	background-image: url('image5.jpg');
+	background-size: 100% 100%;
+}
+#h1{
+			border: 2px solid black;
+			border-radius: 10px;
+			width: 25%;
+			margin-left: 500px;
+			padding: 10px;
+			background-color: #686de0;
+			color: white;
+			font-family: Tahoma;
+		}
+		#span{
+			color: red;
+			font-size: 10px;
+			text-decoration: none;
+		}
+		#h1:hover{
+			background-color: green;
+			color: yellow;
+		}
+		.tc{
+			text-align: right;
+		}
+		div{
+			border: 2px solid black;
+			height: 800px;
+			width: 800px;
+			padding-top: 20px;
+		}
+		.slide{
+			/*position: absolute;
+			top: 35px;
+			border: 2px solid black;
+			margin-left:250px;
+			margin-top: 100px;
+			height: 454px;
+			width: 57%;
+			text-align: center;*/
+			z-index: -1;
+			animation: slide 6s infinite linear;
+
+		}
+		@keyframes slide{
+		0%{
+			background: url("gif2.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		25%{
+			background: url("image1.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+		75%{
+			background: url("image3.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		100%{
+			background: url("image4.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+	
+}
